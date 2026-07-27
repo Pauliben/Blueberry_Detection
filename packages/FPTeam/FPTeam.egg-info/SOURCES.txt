@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+FPTeam/__init__.py
+FPTeam/img_loader.py
+FPTeam/slice_coco_dataset.py
+FPTeam/video.py
+FPTeam.egg-info/PKG-INFO
+FPTeam.egg-info/SOURCES.txt
+FPTeam.egg-info/dependency_links.txt
+FPTeam.egg-info/requires.txt
+FPTeam.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+datasets/leaf/*
+datasets/flowerberry/*
+
+*.pt
+*.pyc
+*events.out*
+*.yaml
+.DS_Store
+__pycache__/
+.vscode/
