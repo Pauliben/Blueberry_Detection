@@ -77,7 +77,6 @@ berry-vision/
     │   ├── canopy_metrics.py           # Canopy area, HSV, distance transform, & hull geometry
     │   ├── berry_sizing.py             # Bounding box sizing calculation
     │   └── visualization.py            # PyTorch GPU mask blending & visualization maps
-    ├── leafanalysis/                   # Core BlueberryAnalyzer package
     └── outputs/                        # CSV reports & sample metric visualization maps:
         ├── canopy_metric_visualization/
         ├── distance_transform/
