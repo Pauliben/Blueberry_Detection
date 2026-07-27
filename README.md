@@ -53,18 +53,6 @@ Extracting spatial canopy geometry, Euclidean distance transforms, HSV color spa
 
 ---
 
-## Abstract Summary & Key Results
-
-Quantifying blueberry fruit yield and maturity is critical for evaluating yield potential in breeding trials, but manual measurement remains slow, labor-intensive, and costly. Object detection networks offer high-throughput automated phenotyping, yet image-based counts systematically underestimate hand-harvested yield due to canopy occlusion.
-
-Key findings from our study across 32 southern highbush blueberry genotypes:
-- **Object Detection Performance**: YOLOv8x achieved an **mAP50 of 0.82** and an **mAP50–95 of 0.66**.
-- **External Validation**: Produced **F1-scores ranging from 0.74 to 0.91** across berry maturity stages.
-- **Canopy Occlusion**: Fruit occlusion varied between **51% and 95%** depending on cultivar canopy architecture.
-- **Yield Model Improvement**: Incorporating image-derived canopy architecture (area, height, width, solidity, distance transform) into Ridge regression improved yield estimation R² from **0.57 to 0.79**.
-
----
-
 ## Repository Directory Layout
 
 ```text
