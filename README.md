@@ -3,7 +3,7 @@
 Official repository accompanying the research publication:
 
 > **Image-Based Estimation of Blueberry Yield Incorporating External Validation and Canopy Architecture Under Field Conditions**  
-> *Paul Adunola, Tyler J. Schultz, Bruno Leme, Amman Mohit Minz, Raghav Rathi, Luis Felipe Ventorim Ferrão, Patricio Muñoz*  
+> *Paul Adunola, Tyler J. Schultz, Bruno Leme, M. Usman Maqbool Bhutta, Amman Mohit Minz, Raghav Rathi, Luis Felipe Ventorim Ferrão, Patricio Muñoz*  
 > **Blueberry Breeding and Genomics Lab, Horticultural Sciences Department, University of Florida**
 
 ---
@@ -171,7 +171,7 @@ If you use this repository, dataset, or methodology in your research, please cit
 ```bibtex
 @article{adunola2026blueberry,
   title={Image-Based Estimation of Blueberry Yield Incorporating External Validation and Canopy Architecture Under Field Conditions},
-  author={Adunola, Paul and Schultz, Tyler J. and Leme, Bruno and Minz, Amman Mohit and Rathi, Raghav and Ferr{\~a}o, Luis Felipe Ventorim and Mu{\~n}oz, Patricio},
+  author={Adunola, Paul and Schultz, Tyler J. and Leme, Bruno and Bhutta, M. Usman Maqbool and Minz, Amman Mohit and Rathi, Raghav and Ferr{\~a}o, Luis Felipe Ventorim and Mu{\~n}oz, Patricio},
   journal={Horticultural Sciences Department, University of Florida},
   year={2026}
 }
