@@ -3,7 +3,6 @@
 Official repository accompanying the research publication:
 
 > **Image-Based Estimation of Blueberry Yield Incorporating External Validation and Canopy Architecture Under Field Conditions**  
-> **Repository Maintainer**: *Raghav Rathi*  
 > *Paul Adunola, Tyler J. Schultz, Bruno Leme, Amman Mohit Minz, Raghav Rathi, Luis Felipe Ventorim Ferrão, Patricio Muñoz*  
 > **Blueberry Breeding and Genomics Lab, Horticultural Sciences Department, University of Florida**
 
