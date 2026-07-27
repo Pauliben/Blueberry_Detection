@@ -16,7 +16,7 @@ Official repository accompanying the research publication:
 
 ## End-to-End Workflow Diagram
 
-The integrated phenotyping workflow illustrates raw image capture, object detection, SAM3 canopy segmentation, architectural feature extraction, binary masking, and precision mask-filtered detection:
+The integrated phenotyping workflow illustrates raw image capture, object detection, SAM3 canopy segmentation with manual corrections, architectural feature extraction, binary masking, and precision mask-filtered detection:
 
 ![End-to-End Workflow Grid](data/grid.png)
 
@@ -26,10 +26,10 @@ The integrated phenotyping workflow illustrates raw image capture, object detect
   Original high-resolution RGB image of the target blueberry plant captured under natural field conditions.
 
 * **(b) Full-Scene Object Detection**:  
-  Initial multi-class detection (immature berries, mature berries, flowers) using YOLOv8x/YOLOv11x with SAHI sliced inference across the entire raw frame.
+  Initial multi-class detection (immature berries and mature berries) using YOLOv8x with SAHI sliced inference across the entire raw frame.
 
 * **(c) SAM3 Zero-Shot Canopy Segmentation**:  
-  Target plant segmentation generated using SAM3 to isolate the target bush from neighboring rows, weeds, and ground cover.
+  Target plant segmentation generated using SAM3 to isolate the target bush from neighboring rows, weeds, and ground cover and manual correction of incomplete segmentation.
 
 * **(d) Canopy Architecture & Spatial Feature Extraction**:  
   Derived geometrical metrics including Convex Hull polygon, minimum bounding box dimensions (Height, Width), Canopy Area (px²), Surface Area, Circularity, and principal orientation axes.
